@@ -1,0 +1,20 @@
+# SocraTask AI Nexus Requirements
+
+# Core system utilities
+psutil>=5.9.0
+py-cpuinfo>=9.0.0
+GPUtil>=1.4.0
+
+# Web and networking (for model downloads)
+requests>=2.28.0
+
+# For potential UI components (to be added later)
+# tkinter is built-in to Python, so not included here
+
+# For future AI inference (placeholder - will be added when implementing actual inference)
+# llama-cpp-python>=0.2.0  # Uncomment when ready to implement actual inference
+# transformers>=4.35.0     # Uncomment when ready to implement actual inference
+# torch>=2.0.0             # Uncomment when ready to implement actual inference
+
+# Development and testing
+pytest>=7.0.0
